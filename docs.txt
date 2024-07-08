@@ -1,0 +1,10 @@
+npm install -g bun 
+bunx --bun create-next-app@latest slack --typescript --tailwind --eslint 
+bun install -y                
+bun run dev                     
+bunx --bun shadcn-ui@latest add button  
+bun install @supabase/ssr @supabase/supabase-js
+
+SUPABASE CLIENT
+
+https://supabase.com/docs/guides/auth/server-side/creating-a-client
