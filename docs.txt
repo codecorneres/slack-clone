@@ -1,10 +1,40 @@
 npm install -g bun 
-bunx --bun create-next-app@latest slack --typescript --tailwind --eslint 
-bun install -y                
-bun run dev                     
-bunx --bun shadcn-ui@latest add button  
+
+bunx --bun create-next-app@latest slack --typescript --tailwind --eslint
+
+bun install -y
+
+bun run dev
+
+bunx --bun shadcn-ui@latest add button
+
 bun install @supabase/ssr @supabase/supabase-js
 
-SUPABASE CLIENT
+bun i react-icons
 
+bunx --bun shadcn-ui@latest add form
+
+bun i react-hook-form zod @hookform/resolvers
+
+bunx --bun shadcn-ui@latest add input
+
+
+SUPABASE CLIENT
 https://supabase.com/docs/guides/auth/server-side/creating-a-client
+
+
+SUPABASE SSR
+https://supabase.com/docs/guides/auth/server-side/creating-a-client?queryGroups=environment&environment=client-component
+
+SUPABASE OAUTH
+https://supabase.com/docs/guides/auth/server-side/oauth-with-pkce-flow-for-ssr
+
+SUPABASE TYPES
+https://supabase.com/docs/guides/api/rest/generating-types
+
+UPLOADTHING
+https://uploadthing.com/
+https://docs.uploadthing.com/
+
+NEXTJS-IMAGE_CONFIG
+https://nextjs.org/docs/messages/next-image-unconfigured-host
