@@ -18,6 +18,11 @@ bun i react-hook-form zod @hookform/resolvers
 
 bunx --bun shadcn-ui@latest add input
 
+bunx supabase logout
+
+bunx supabase login
+
+bunx supabase gen types tyescript --project-id "iwplrjdxnfrkwcrepvpz" --schema public > src/types/supabase.ts
 
 SUPABASE CLIENT
 https://supabase.com/docs/guides/auth/server-side/creating-a-client

@@ -85,11 +85,11 @@ const AuthPage = () => {
       <div className='max-w-[450px]'>
         <div className='flex justify-center items-center gap-3 mb-4'>
           <BsSlack size={30} />
-          <Typography text='Slack' variant='h2' />
+          <Typography text='Slackzz' variant='h2' />
         </div>
 
         <Typography
-          text='Sign in to your Slack'
+          text='Sign in to your Slackzz'
           variant='h2'
           className='mb-3'
         />
